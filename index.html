@@ -21,11 +21,14 @@
 
 <body class="demo-1 loading">
 	<main>
-		<audio autoplay src="./audio/Đức Phúc - Ngày Đầu Tiên (mp3cut.net).mp3"></audio>
 		<div class="message">Please view this demo on a desktop to see the effect.</div>
 		<div class="frame">
 		</div>
 		<div class="content">
+			<iframe src="silence.mp3" allow="autoplay" allow="loop" id="audio" hidden ></iframe>
+			<audio id="player" autoplay loop>
+				<source src="./audio/Đức Phúc - Ngày Đầu Tiên (mp3cut.net).mp3" type="audio/mp3">
+			</audio>
 			<div class="grid">
 				<div class="grid__item pos-2">
 					<div class="grid__item-img" style="background-image:url(./img/hien.jpg);" class="hover"></div>

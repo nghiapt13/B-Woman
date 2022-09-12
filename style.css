@@ -356,10 +356,6 @@ a:focus {
 
 }
 
-.grid__item-img:hover {
-	opacity: 1 !important;
-
-}
 
 @media (any-pointer: fine) {
 	.cursor {

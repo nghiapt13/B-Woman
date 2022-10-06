@@ -6426,3 +6426,6 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   });
   var cursor = new _cursor.default(document.querySelector('.cursor'));
   },{"../cursor":"LMRJ","./grid":"toX6","../utils":"MgTz"}]},{},["C3Xv"], null)
+
+  // type writter
+  

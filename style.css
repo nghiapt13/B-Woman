@@ -29,7 +29,7 @@ body {
 	--color-bg: #0c0c0c;
 	--color-link: #6b5537;
 	--color-link-hover: #fff;
-	--color-content-title-sub: #6b5537;
+	--color-content-title-sub: #FFC0CB;
 	color: var(--color-text);
 	background-color: var(--color-bg);
 	--cursor-stroke: #6b5537;
@@ -355,6 +355,44 @@ a:focus {
 	font-size: small;
 
 }
+
+/* type */
+.content.gird .content__title-sub h2 span.cursor {
+	display: inline-block;
+	background-color: #ccc;
+	margin-left: 0.1rem;
+	width: 3px;
+	animation: blink 1s infinite;
+}
+
+.gird span.cursor.typing {
+	animation: none;
+}
+
+
+@keyframes blink {
+	0% {
+		background-color: #ccc;
+	}
+
+	49% {
+		background-color: #ccc;
+	}
+
+	50% {
+		background-color: transparent;
+	}
+
+	99% {
+		background-color: transparent;
+	}
+
+	100% {
+		background-color: #ccc;
+	}
+}
+
+
 
 
 @media (any-pointer: fine) {

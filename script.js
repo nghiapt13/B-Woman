@@ -6504,3 +6504,31 @@ window.onload = setTimeout(function () {
 // playerBtn.addEventListener("click", handlePlayer());
 
 
+// change image every 10s
+const imagechange = setTimeout(changeimage,10000);
+
+function changeimage(){
+  document.getElementById("change_pic").style.backgroundImage = "url(./img/thao.jpg)";
+  document.getElementById("change_pic1").style.backgroundImage = "url(./img/uyen.jpg)";
+  document.getElementById("change_pic2").style.backgroundImage = "url(./img/hnhu.jpg)";
+  document.getElementById("change_pic3").style.backgroundImage = "url(./img/han.jpg)";
+  document.getElementById("change_pic4").style.backgroundImage = "url(./img/hngoc.jpg)";
+  document.getElementById("change_pic5").style.backgroundImage = "url(./img/mythu.jpg)";
+  document.getElementById("change_pic6").style.backgroundImage = "url(./img/tham.jpg)";
+  document.getElementById("change_pic7").style.backgroundImage = "url(./img/huong.jpg)";
+  document.getElementById("change_pic8").style.backgroundImage = "url(./img/mquyen.jfif)";
+  document.getElementById("change_pic9").style.backgroundImage = "url(./img/dquynh.jfif)";
+
+  document.getElementById("change_pic").style.transition = "0.3s all linear";
+  document.getElementById("change_pic1").style.transition = "0.3s all linear"
+  document.getElementById("change_pic2").style.transition = "0.3s all linear"
+  document.getElementById("change_pic3").style.transition = "0.3s all linear"
+  document.getElementById("change_pic4").style.transition = "0.3s all linear"
+  document.getElementById("change_pic5").style.transition = "0.3s all linear"
+  document.getElementById("change_pic6").style.transition = "0.3s all linear"
+  document.getElementById("change_pic7").style.transition = "0.3s all linear"
+  document.getElementById("change_pic8").style.transition = "0.3s all linear"
+  document.getElementById("change_pic9").style.transition = "0.3s all linear"
+
+}
+

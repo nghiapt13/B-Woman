@@ -244,7 +244,7 @@ a:focus {
 }
 
 .pos-6 {
-	grid-area: 19 / 44 / 31 / 48;
+	grid-area: 19 / 42 / 32 / 47;
 }
 
 .pos-7 {
@@ -426,17 +426,12 @@ a:focus {
 	opacity: 1;
 }
 
-.btn_change{
-	background-color: #FFC0CB;
-	width: 10rem;
-	height: 2rem;
-	border-radius: 10px;
-	cursor: pointer;
-	font-family: obiFont;
-	border: none;
-}
-#change_btn2{
-	visibility: hidden;
+
+
+
+
+#change_btn2 {
+	display: none;
 	z-index: 1;
 }
 

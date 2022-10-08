@@ -6494,6 +6494,7 @@ window.onload = setTimeout(function () {
   if (confirm("Làm tí nhạc không bạn eii?")) {
     audio.play();
     playerBtn.classList.add('active');
+    alert("Click vào icon loa để lên nhạc nha.")
   } else {
     audio.pause();
   }

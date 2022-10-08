@@ -30,36 +30,38 @@
 		</div>
 		<div class="content">
 			<div class="grid">
-
 				<div class="grid__item pos-2">
-					<div class="grid__item-img" style="background-image:url(./img/mylinh.jpg);" class="hover"></div>
+					<div id="change_pic" class="grid__item-img" style="background-image:url(./img/mylinh.jpg);"
+						class="hover"></div>
 				</div>
 				<div class="grid__item pos-3">
-					<div class="grid__item-img" style="background-image:url(./img/an_new.jfif);" class="hover"></div>
+					<div id="change_pic1" class="grid__item-img" style="background-image:url(./img/an_new.jfif);"
+						class="hover"></div>
 				</div>
 				<div class="grid__item pos-4">
-					<div class="grid__item-img" style="background-image:url(./img/tỉn.jpg);" class="hover"></div>
+					<div id="change_pic2" class="grid__item-img" style="background-image:url(./img/tỉn.jpg);"
+						class="hover"></div>
 				</div>
 				<div class="grid__item pos-1">
-					<div class="grid__item-img" style="background-image:url(./img/funj.jpg);" class="hover"></div>
+					<div id="change_pic3" class="grid__item-img" style="background-image:url(./img/funj.jpg);" class="hover"></div>
 				</div>
 				<div class="grid__item pos-5">
-					<div class="grid__item-img" style="background-image:url(./img/trang.jpg);" class="hover"></div>
+					<div id="change_pic4" class="grid__item-img" style="background-image:url(./img/trang.jpg);" class="hover"></div>
 				</div>
 				<div class="grid__item pos-6">
-					<div class="grid__item-img" style="background-image:url(./img/lenghi.jpg);" class="hover"></div>
+					<div id="change_pic5" class="grid__item-img" style="background-image:url(./img/lenghi.jpg);" class="hover"></div>
 				</div>
 				<div class="grid__item pos-7">
-					<div class="grid__item-img" style="background-image:url(./img/chang.jpg);" class="hover"></div>
+					<div id="change_pic6" class="grid__item-img" style="background-image:url(./img/chang.jpg);" class="hover"></div>
 				</div>
 				<div class="grid__item pos-8">
-					<div class="grid__item-img" style="background-image:url(./img/sam.jpg);" class="hover"></div>
+					<div id="change_pic7" class="grid__item-img" style="background-image:url(./img/sam.jpg);" class="hover"></div>
 				</div>
 				<div class="grid__item pos-9">
-					<div class="grid__item-img" style="background-image:url(./img/thu.jpg);" class="hover"></div>
+					<div id="change_pic8" class="grid__item-img" style="background-image:url(./img/thu.jpg);" class="hover"></div>
 				</div>
 				<div class="grid__item pos-10">
-					<div class="grid__item-img" style="background-image:url(./img/yen.jpg);" class="hover"></div>
+					<div id="change_pic9" class="grid__item-img" style="background-image:url(./img/yen.jpg);" class="hover"></div>
 				</div>
 			</div>
 			<h2 class="content__title no-select">
@@ -77,13 +79,16 @@
 			</h4>
 			<div class="music">
 				<img class="playerbtn" onclick="handlePlayer()"
-					src="./transparent-essential-icon-speaker-icon-sound-icon-5d8e139dc25626.341050001569592221796.png" alt="">
+					src="./transparent-essential-icon-speaker-icon-sound-icon-5d8e139dc25626.341050001569592221796.png"
+					alt="">
 				<audio id="audio" class="player">
 					<source src="./ILikeYou.mp3" type="audio/mp3">
 				</audio>
 			</div>
-
 			</label>
+
+			<button id="change_btn" class="btn_change" onclick="changepic();">Đổi ảnh ở đây nha</button>
+			<button id="change_btn2" class="btn_change" onclick="changepic();">Đổi ảnh ở đây nha</button>
 			<h4 class="cre_bitc">
 				From <a target="_blank" href="https://www.facebook.com/bitc.club">BITC</a> with luv 🖤💚
 			</h4>
@@ -107,6 +112,27 @@
 			}
 
 		};
+		function changepic() {
+			
+		}
+		
+		var btn1 = document.getElementById("change_btn")
+		var btn2 = document.getElementById("change_btn2")
+		btn1.onclick = function(){
+			document.getElementById("change_pic").style.backgroundImage = "url(./img/an.jpg)";
+			document.getElementById("change_pic1").style.backgroundImage = "url(./img/an.jpg)";
+			document.getElementById("change_pic2").style.backgroundImage = "url(./img/hnhu.jpg)";
+			document.getElementById("change_pic3").style.backgroundImage = "url(./img/huong.jpg)";
+			document.getElementById("change_pic4").style.backgroundImage = "url(./img/hngoc.jpg)";
+			document.getElementById("change_pic5").style.backgroundImage = "url(./img/lenghi.jpg)";
+			document.getElementById("change_pic6").style.backgroundImage = "url(./img/huong.jpg)";
+			document.getElementById("change_pic7").style.backgroundImage = "url(./img/k6.jpg)";
+			document.getElementById("change_pic8").style.backgroundImage = "url(./img/lenghi.jpg)";
+			document.getElementById("change_pic9").style.backgroundImage = "url(./img/lenghi.jpg)";
+			
+			btn2.style.visibility = "visible";
+			btn1.style.visibility = "hidden";
+		}
 	</script>
 </body>
 

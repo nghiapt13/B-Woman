@@ -6434,7 +6434,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Chúc các em K6 sớm thuộc về tôi ❤️", "Chúc chị em 20/10 tràn đầy sức khỏe", "Chúc chị em 20/10 xinh như ảnh trên mạng.", "Chúc chị em 20/10 xinh như người yêu tôi ❤️"];
+const textArray = ["Nhân dịp 20/10...", "Chúc chị em tràn đầy sức khỏe...", "Xinh như ảnh trên mạng....", "Sớm là của tôi... ❤️","hoặc là của ai khác 😔"];
 const typingDelay = 200;
 const erasingDelay = 50;
 const newTextDelay = 2000; // Delay between current and next text
@@ -6494,7 +6494,7 @@ window.onload = setTimeout(function () {
   if (confirm("Làm tí nhạc không bạn eii?")) {
     audio.play();
     playerBtn.classList.add('active');
-    alert("Click vào icon loa để lên nhạc nha.")
+    alert("Click vào icon loa ở dưới góc phải màn hình để lên nhạc nha.")
   } else {
     audio.pause();
   }

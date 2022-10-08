@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>20/10 by BITC</title>
+	<title>B-Woman by NghiaPT</title>
 	<!-- <link rel="shortcut icon" href="./rose.png"> -->
 	<link rel="stylesheet" href="https://use.typekit.net/eqx3jwb.css">
 	<link rel="stylesheet" type="text/css" href="./style.css">
@@ -30,7 +30,7 @@
 		</div>
 		<div class="content">
 			<div class="grid">
-				
+
 				<div class="grid__item pos-2">
 					<div class="grid__item-img" style="background-image:url(./img/mylinh.jpg);" class="hover"></div>
 				</div>
@@ -66,7 +66,8 @@
 				<span>Love</span>
 			</h2>
 			<h2 class="content__title no-select">
-				<span class="content__title-sub">Chúc chị em 20/10 xinh như <span class="typed-text"></span><span class="cursor">&nbsp;</span></span>
+				<span class="content__title-sub"><span class="typed-text"></span><span
+						class="cursor">&nbsp;</span></span>
 			</h2>
 			<h4 class="cre">
 				<span>Original by <a target="_blank" href="https://www.facebook.com/ngoctien.TNT">ngoctienTNT</a></span>
@@ -74,16 +75,39 @@
 			<h4 class="cre">
 				<span>Modified by <a target="_blank" href="https://www.facebook.com/Nghia.PT21">NghiaPT</a></span>
 			</h4>
+			<div class="music">
+				<img class="playerbtn" onclick="handlePlayer()"
+					src="./transparent-essential-icon-speaker-icon-sound-icon-5d8e139dc25626.341050001569592221796.png" alt="">
+				<audio id="audio" class="player">
+					<source src="./ILikeYou.mp3" type="audio/mp3">
+				</audio>
+			</div>
+
 			</label>
 			<h4 class="cre_bitc">
 				From <a target="_blank" href="https://www.facebook.com/bitc.club">BITC</a> with luv 🖤💚
 			</h4>
 	</main>
-	<!-- <svg class="cursor" width="80" height="80" viewBox="0 0 80 80">
+	<!-- <svg class="cursor_mouse" width="80" height="80" viewBox="0 0 80 80">
 		<circle class="cursor__inner" cx="40" cy="40" r="20"></circle>
 	</svg> -->
 	<script src="./script.js"></script>
-	
+	<script>
+		const audioPlayer = document.querySelector('#audio')
+
+		let isPlayer = false;
+
+		const handlePlayer = () => {
+			if (isPlayer) {
+				audioPlayer.pause()
+				isPlayer = false
+			} else {
+				audioPlayer.play()
+				isPlayer = true
+			}
+
+		};
+	</script>
 </body>
 
 </html>

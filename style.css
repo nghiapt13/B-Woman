@@ -13,6 +13,13 @@
 	src: url(Pacifico-Regular.ttf);
 }
 
+@font-face {
+	font-family: obiFont;
+	src: url(SignikaNegative-Regular.ttf);
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
 
 html,
 body,
@@ -271,11 +278,11 @@ a:focus {
 	display: block;
 	margin-left: 3vw;
 	line-height: 0.5;
+	/* font-family: obiFont; */
 }
 
-.cursor {
-	display: none;
-}
+
+
 
 @media screen and (min-width: 53em) {
 	.message {
@@ -357,17 +364,17 @@ a:focus {
 }
 
 /* type */
-.content.gird .content__title-sub h2 span.cursor {
+/* .content.gird .content__title-sub h2 span.cursor {
 	display: inline-block;
 	background-color: #ccc;
 	margin-left: 0.1rem;
 	width: 3px;
 	animation: blink 1s infinite;
-}
+} */
 
-.gird span.cursor.typing {
+/* .gird span.cursor.typing {
 	animation: none;
-}
+} */
 
 
 @keyframes blink {
@@ -396,7 +403,7 @@ a:focus {
 
 
 @media (any-pointer: fine) {
-	.cursor {
+	.cursor_mouse {
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -408,5 +415,37 @@ a:focus {
 		fill: var(--cursor-fill);
 		stroke: var(--cursor-stroke);
 		stroke-width: var(--cursor-stroke-width);
+	}
+}
+
+
+/* add on */
+.music {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	cursor: pointer;
+}
+
+.music img {
+	width: 50px;
+	opacity: 0;
+	cursor: pointer;
+	transition: all 0.3s linear;
+}
+
+.music .active {
+	opacity: 1;
+}
+
+@keyframes showup {
+	0% {
+		opacity: 0.6;
+		background-color: white;
+	}
+
+	100% {
+		opacity: 1;
+		background-color: #d05400;
 	}
 }

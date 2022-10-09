@@ -6498,14 +6498,16 @@ window.onload = setTimeout(function () {
   } else {
     audio.pause();
   }
-}, 5000);
+}, 0000);
 
 
 // playerBtn.addEventListener("click", handlePlayer());
 
 
-// change image every 10s
+// change image every 15s
 const imagechange = setTimeout(changeimage,10000);
+
+const imagechange2 = setTimeout(changeimage2,20000);
 
 function changeimage(){
   document.getElementById("change_pic").style.backgroundImage = "url(./img/thao.jpg)";
@@ -6519,16 +6521,126 @@ function changeimage(){
   document.getElementById("change_pic8").style.backgroundImage = "url(./img/mquyen.jfif)";
   document.getElementById("change_pic9").style.backgroundImage = "url(./img/dquynh.jfif)";
 
-  document.getElementById("change_pic").style.transition = "0.3s all linear";
-  document.getElementById("change_pic1").style.transition = "0.3s all linear"
-  document.getElementById("change_pic2").style.transition = "0.3s all linear"
-  document.getElementById("change_pic3").style.transition = "0.3s all linear"
-  document.getElementById("change_pic4").style.transition = "0.3s all linear"
-  document.getElementById("change_pic5").style.transition = "0.3s all linear"
-  document.getElementById("change_pic6").style.transition = "0.3s all linear"
-  document.getElementById("change_pic7").style.transition = "0.3s all linear"
-  document.getElementById("change_pic8").style.transition = "0.3s all linear"
-  document.getElementById("change_pic9").style.transition = "0.3s all linear"
+  document.getElementById("change_pic").style.animation = "fade 0.7s linear";
+  document.getElementById("change_pic1").style.animation= "fade 0.7s linear";
+  document.getElementById("change_pic2").style.animation= "fade 0.7s linear";
+  document.getElementById("change_pic3").style.animation= "fade 0.7s linear";
+  document.getElementById("change_pic4").style.animation= "fade 0.7s linear";
+  document.getElementById("change_pic5").style.animation= "fade 0.7s linear";
+  document.getElementById("change_pic6").style.animation= "fade 0.7s linear";
+  document.getElementById("change_pic7").style.animation= "fade 0.7s linear";
+  document.getElementById("change_pic8").style.animation= "fade 0.7s linear";
+  document.getElementById("change_pic9").style.animation= "fade 0.7s linear";
 
 }
+
+function changeimage2(){
+  document.getElementById("change_pic").style.backgroundImage = "url(./img/ttien.jpg)";
+  document.getElementById("change_pic1").style.backgroundImage = "url(./img/bangnhi.jpg)";
+  document.getElementById("change_pic2").style.backgroundImage = "url(./img/dvan.jpg)";
+  document.getElementById("change_pic3").style.backgroundImage = "url(./img/xdao.jpg)";
+  document.getElementById("change_pic4").style.backgroundImage = "url(./img/lyna.jpg)";
+  document.getElementById("change_pic5").style.backgroundImage = "url(./img/myanh.jpg)";
+  document.getElementById("change_pic6").style.backgroundImage = "url(./img/hien.jpg)";
+  document.getElementById("change_pic7").style.backgroundImage = "url(./img/ttrang.jpg)";
+  document.getElementById("change_pic8").style.backgroundImage = "url(./img/pthao.jpg)";
+  document.getElementById("change_pic9").style.backgroundImage = "url(./img/anslinh.jpg)";
+
+  document.getElementById("change_pic").style.animation = "0.7s all linear";
+  document.getElementById("change_pic1").style.animation= "0.7s all linear";
+  document.getElementById("change_pic2").style.animation= "0.7s all linear";
+  document.getElementById("change_pic3").style.animation= "0.7s all linear";
+  document.getElementById("change_pic4").style.animation= "0.7s all linear";
+  document.getElementById("change_pic5").style.animation= "0.7s all linear";
+  document.getElementById("change_pic6").style.animation= "0.7s all linear";
+  document.getElementById("change_pic7").style.animation= "0.7s all linear";
+  document.getElementById("change_pic8").style.animation= "0.7s all linear";
+  document.getElementById("change_pic9").style.animation= "0.7s all linear";
+
+}
+
+
+
+
+
+//Chống copy
+function killCopy(e){
+  return false;
+}
+
+function reEnable(){
+  return true;
+}
+
+document.onselectstart=new Function ("return false");
+
+if (window.sidebar){
+  document.onmousedown=killCopy;
+  document.onclick=reEnable;
+}
+
+function noteOut()
+{
+  var note = document.querySelector(".note");
+  note.style.display = "none";
+}
+
+setInterval(noteOut,3000);
+
+//Chống chuột phải 
+window.onload = function() {
+  document.addEventListener("contextmenu", function(e) {
+      e.preventDefault();
+  }, false);
+  document.addEventListener("keydown", function(e) {
+      //document.onkeydown = function(e) {
+      // "I" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+          disabledEvent(e);
+      }
+      // "J" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+          disabledEvent(e);
+      }
+      // "S" key + macOS
+      if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+          disabledEvent(e);
+      }
+      // "U" key
+      if (e.ctrlKey && e.keyCode == 85) {
+          disabledEvent(e);
+      }
+      // "F12" key
+      if (event.keyCode == 123) {
+          disabledEvent(e);
+      }
+  }, false);
+
+  function disabledEvent(e) {
+      if (e.stopPropagation) {
+          e.stopPropagation();
+      } else if (window.event) {
+          window.event.cancelBubble = true;
+      }
+      e.preventDefault();
+      return false;
+  }
+};
+
+//Chống Ctrl + U
+document.onkeydown = function(e) {
+  if (e.ctrlKey && 
+      (e.keyCode === 67 || 
+       e.keyCode === 86 || 
+       e.keyCode === 85 || 
+       e.keyCode === 117)) {
+      return false;
+  } else {
+      return true;
+  }
+};
+$(document).keypress("u",function(e) {
+  if(e.ctrlKey) return false;
+  else return true;
+});
 

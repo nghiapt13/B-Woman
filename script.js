@@ -6609,7 +6609,7 @@ function changeimage2() {
 
 function changeimage3(){
   document.getElementById("change_pic").style.backgroundImage = "url(./img/tthao.jpg)";
-  document.getElementById("change_pic1").style.backgroundImage = "url(./img/doantrinh.jpg)";
+  document.getElementById("change_pic1").style.backgroundImage = "url(./img/dquyen.jpg)";
   document.getElementById("change_pic2").style.backgroundImage = "url(./img/ngocathu.jpg)";
   document.getElementById("change_pic3").style.backgroundImage = "url(./img/nnyennhi.jpg)";
   document.getElementById("change_pic4").style.backgroundImage = "url(./img/noname.jpg)";

@@ -262,6 +262,12 @@ a:focus {
 .pos-10 {
 	grid-area: 37 / 39 / 48 / 47;
 }
+.pos-11{
+	grid-area: 5 / 30 / 16 / 35;
+}
+.pos-12{
+	grid-area: 18 / 20 / 32 / 28;
+}
 
 .content__title {
 	font-family: myFont;
@@ -274,7 +280,7 @@ a:focus {
 
 .content__title-sub {
 	color: var(--color-content-title-sub);
-	font-size: 4vw;
+	font-size: 3vw;
 	display: block;
 	margin-left: 3vw;
 	line-height: 0.5;
@@ -360,7 +366,7 @@ a:focus {
 
 .cre {
 	font-size: small;
-
+	z-index: 3;
 }
 
 

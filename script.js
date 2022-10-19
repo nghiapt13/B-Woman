@@ -6504,33 +6504,33 @@ window.onload = setTimeout(function () {
 // playerBtn.addEventListener("click", handlePlayer());
 
 
-// change image every 15s
+// change image every 5s
 
 const imagechange = setTimeout(changeimage, 0);
 
-const imagechange1 = setTimeout(changeimage1, 10000);
+const imagechange1 = setTimeout(changeimage1, 5000);
 
-const imagechange2 = setTimeout(changeimage2, 20000);
+const imagechange2 = setTimeout(changeimage2, 10000);
 
-const imagechange3 = setTimeout(changeimage3,30000);
-
-
-const imagechange4 = setTimeout(changeimage, 40000);
-
-const imagechange5 = setTimeout(changeimage1, 50000);
-
-const imagechange6 = setTimeout(changeimage2, 60000);
-
-const imagechange7 = setTimeout(changeimage3,70000);
+const imagechange3 = setTimeout(changeimage3,15000);
 
 
-const imagechange8 = setTimeout(changeimage, 80000);
+const imagechange4 = setTimeout(changeimage, 20000);
 
-const imagechange9 = setTimeout(changeimage1, 90000);
+const imagechange5 = setTimeout(changeimage1, 25000);
 
-const imagechange10 = setTimeout(changeimage2, 100000);
+const imagechange6 = setTimeout(changeimage2, 30000);
 
-const imagechange11 = setTimeout(changeimage3,110000);
+const imagechange7 = setTimeout(changeimage3,35000);
+
+
+const imagechange8 = setTimeout(changeimage, 40000);
+
+const imagechange9 = setTimeout(changeimage1, 45000);
+
+const imagechange10 = setTimeout(changeimage2, 50000);
+
+const imagechange11 = setTimeout(changeimage3,55000);
 
 function changeimage() {
   document.getElementById("change_pic").style.backgroundImage = "url(./img/mylinh.jpg)";
@@ -6543,6 +6543,8 @@ function changeimage() {
   document.getElementById("change_pic7").style.backgroundImage = "url(./img/sam.jpg)";
   document.getElementById("change_pic8").style.backgroundImage = "url(./img/thu.jpg)";
   document.getElementById("change_pic9").style.backgroundImage = "url(./img/yen.jpg)";
+  document.getElementById("change_pic10").style.backgroundImage= "url(./img/doantrinh.jpg)";
+  document.getElementById("change_pic11").style.backgroundImage= "url(./img/bellathuhien.jpg)";
 
   // document.getElementById("change_pic").style.animation = "fade 0.7s linear";
   // document.getElementById("change_pic1").style.animation = "fade 0.7s linear";
@@ -6568,18 +6570,21 @@ function changeimage1() {
   document.getElementById("change_pic7").style.backgroundImage = "url(./img/huong.jpg)";
   document.getElementById("change_pic8").style.backgroundImage = "url(./img/mquyen.jfif)";
   document.getElementById("change_pic9").style.backgroundImage = "url(./img/dquynh_new.png)";
+  document.getElementById("change_pic10").style.backgroundImage= "url(./img/hfmy.jpg)";
+  document.getElementById("change_pic11").style.backgroundImage= "url(./img/vhien.jpg)";
 
-  document.getElementById("change_pic").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic1").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic2").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic3").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic4").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic5").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic6").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic7").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic8").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic9").style.animation = "fade 0.7s linear";
-
+  document.getElementById("change_pic").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic1").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic2").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic3").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic4").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic5").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic6").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic7").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic8").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic9").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic10").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic11").style.animation = "fade 0.5s linear";
 }
 
 function changeimage2() {
@@ -6593,6 +6598,8 @@ function changeimage2() {
   document.getElementById("change_pic7").style.backgroundImage = "url(./img/ttrang.jpg)";
   document.getElementById("change_pic8").style.backgroundImage = "url(./img/pthao.jpg)";
   document.getElementById("change_pic9").style.backgroundImage = "url(./img/anslinh.jpg)";
+  document.getElementById("change_pic10").style.backgroundImage= "url(./img/k6.jpg)";
+  document.getElementById("change_pic11").style.backgroundImage= "url(./img/h_anh.jpg)";
 
   document.getElementById("change_pic").style.animation = "fade 0.7s linear";
   document.getElementById("change_pic1").style.animation = "fade 0.7s linear";
@@ -6604,6 +6611,8 @@ function changeimage2() {
   document.getElementById("change_pic7").style.animation = "fade 0.7s linear";
   document.getElementById("change_pic8").style.animation = "fade 0.7s linear";
   document.getElementById("change_pic9").style.animation = "fade 0.7s linear";
+  document.getElementById("change_pic10").style.animation = "fade 0.7s linear";
+  document.getElementById("change_pic11").style.animation = "fade 0.7s linear";
 
 }
 
@@ -6618,6 +6627,8 @@ function changeimage3(){
   document.getElementById("change_pic7").style.backgroundImage = "url(./img/tha.jpg)";
   document.getElementById("change_pic8").style.backgroundImage = "url(./img/htien.jpg)";
   document.getElementById("change_pic9").style.backgroundImage = "url(./img/tutrang.jpg)";
+  document.getElementById("change_pic10").style.backgroundImage= "url(./img/huyen.jpeg)";
+  document.getElementById("change_pic11").style.backgroundImage= "url(./img/tien.jpg)";
 
   document.getElementById("change_pic").style.animation = "fade 0.7s linear";
   document.getElementById("change_pic1").style.animation = "fade 0.7s linear";
@@ -6629,7 +6640,100 @@ function changeimage3(){
   document.getElementById("change_pic7").style.animation = "fade 0.7s linear";
   document.getElementById("change_pic8").style.animation = "fade 0.7s linear";
   document.getElementById("change_pic9").style.animation = "fade 0.7s linear";
+  document.getElementById("change_pic10").style.animation = "fade 0.7s linear";
+  document.getElementById("change_pic11").style.animation = "fade 0.7s linear";
 }
+
+// document.getElementById("change_pic").style.animation = "0.7s all linear";
+// document.getElementById("change_pic1").style.animation= "0.7s all linear";
+// document.getElementById("change_pic2").style.animation= "0.7s all linear";
+// document.getElementById("change_pic3").style.animation= "0.7s all linear";
+// document.getElementById("change_pic4").style.animation= "0.7s all linear";
+// document.getElementById("change_pic5").style.animation= "0.7s all linear";
+// document.getElementById("change_pic6").style.animation= "0.7s all linear";
+// document.getElementById("change_pic7").style.animation= "0.7s all linear";
+// document.getElementById("change_pic8").style.animation= "0.7s all linear";
+// document.getElementById("change_pic9").style.animation= "0.7s all linear";
+
+
+
+// //fade animation in css?
+// #test p {
+//     margin-top: 25px;
+//     font-size: 21px;
+//     text-align: center;
+
+//     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+//        -moz-animation: fadein 2s; /* Firefox < 16 */
+//         -ms-animation: fadein 2s; /* Internet Explorer */
+//          -o-animation: fadein 2s; /* Opera < 12.1 */
+//             animation: fadein 2s;
+// }
+
+// @keyframes fadein {
+//     from { opacity: 0; }
+//     to   { opacity: 1; }
+// }
+
+// /* Firefox < 16 */
+// @-moz-keyframes fadein {
+//     from { opacity: 0; }
+//     to   { opacity: 1; }
+// }
+
+// /* Safari, Chrome and Opera > 12.1 */
+// @-webkit-keyframes fadein {
+//     from { opacity: 0; }
+//     to   { opacity: 1; }
+// }
+
+// /* Internet Explorer */
+// @-ms-keyframes fadein {
+//     from { opacity: 0; }
+//     to   { opacity: 1; }
+// }
+
+// /* Opera < 12.1 */
+// @-o-keyframes fadein {
+//     from { opacity: 0; }
+//     to   { opacity: 1; }
+// }
+
+
+// $("#test p").addClass("load");​
+
+
+// #test p {
+//     opacity: 0;
+//     font-size: 21px;
+//     margin-top: 25px;
+//     text-align: center;
+
+//     -webkit-transition: opacity 2s ease-in;
+//        -moz-transition: opacity 2s ease-in;
+//         -ms-transition: opacity 2s ease-in;
+//          -o-transition: opacity 2s ease-in;
+//             transition: opacity 2s ease-in;
+// }
+
+// #test p.load {
+//     opacity: 1;
+// }
+
+
+// document.getElementById("test").children[0].className += " load";
+
+
+// $("#test p").delay(1000).animate({ opacity: 1 }, 700);​
+
+
+// #test p {
+//     opacity: 0;
+//     font-size: 21px;
+//     margin-top: 25px;
+//     text-align: center;
+// }
+
 
 
 
@@ -6658,60 +6762,61 @@ function noteOut() {
 
 setInterval(noteOut, 3000);
 
-//Chống chuột phải 
-window.onload = function () {
-  document.addEventListener("contextmenu", function (e) {
-    e.preventDefault();
-  }, false);
-  document.addEventListener("keydown", function (e) {
-    //document.onkeydown = function(e) {
-    // "I" key
-    if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
-      disabledEvent(e);
-    }
-    // "J" key
-    if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
-      disabledEvent(e);
-    }
-    // "S" key + macOS
-    if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
-      disabledEvent(e);
-    }
-    // "U" key
-    if (e.ctrlKey && e.keyCode == 85) {
-      disabledEvent(e);
-    }
-    // "F12" key
-    if (event.keyCode == 123) {
-      disabledEvent(e);
-    }
-  }, false);
+// //Chống chuột phải 
+// window.onload = function () {
+//   document.addEventListener("contextmenu", function (e) {
+//     e.preventDefault();
+//   }, false);
+//   document.addEventListener("keydown", function (e) {
+//     //document.onkeydown = function(e) {
+//     // "I" key
+//     if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+//       disabledEvent(e);
+//     }
+//     // "J" key
+//     if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+//       disabledEvent(e);
+//     }
+//     // "S" key + macOS
+//     if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+//       disabledEvent(e);
+//     }
+//     // "U" key
+//     if (e.ctrlKey && e.keyCode == 85) {
+//       disabledEvent(e);
+//     }
+//     // "F12" key
+//     if (event.keyCode == 123) {
+//       disabledEvent(e);
+//     }
+//   }, false);
 
-  function disabledEvent(e) {
-    if (e.stopPropagation) {
-      e.stopPropagation();
-    } else if (window.event) {
-      window.event.cancelBubble = true;
-    }
-    e.preventDefault();
-    return false;
-  }
-};
+//   function disabledEvent(e) {
+//     if (e.stopPropagation) {
+//       e.stopPropagation();
+//     } else if (window.event) {
+//       window.event.cancelBubble = true;
+//     }
+//     e.preventDefault();
+//     return false;
+//   }
+// };
 
-//Chống Ctrl + U
-document.onkeydown = function (e) {
-  if (e.ctrlKey &&
-    (e.keyCode === 67 ||
-      e.keyCode === 86 ||
-      e.keyCode === 85 ||
-      e.keyCode === 117)) {
-    return false;
-  } else {
-    return true;
-  }
-};
-$(document).keypress("u", function (e) {
-  if (e.ctrlKey) return false;
-  else return true;
-});
+// //Chống Ctrl + U
+// document.onkeydown = function (e) {
+//   if (e.ctrlKey &&
+//     (e.keyCode === 67 ||
+//       e.keyCode === 86 ||
+//       e.keyCode === 85 ||
+//       e.keyCode === 117)) {
+//     return false;
+//   } else {
+//     return true;
+//   }
+// };
+// $(document).keypress("u", function (e) {
+//   if (e.ctrlKey) return false;
+//   else return true;
+// });
+
 

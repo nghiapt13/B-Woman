@@ -6435,9 +6435,9 @@ const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
 const textArray = ["Chúc chị em 20/10...", "Tràn đầy sức khỏe...", "Xinh đẹp như ảnh trên mạng....", "Mãi là những bông hồng trong lòng chúng tôi... ❤️", "Sending love from BITC 💚🖤"];
-const typingDelay = 200;
+const typingDelay = 100;
 const erasingDelay = 50;
-const newTextDelay = 2000; // Delay between current and next text
+const newTextDelay = 1000; // Delay between current and next text
 let textArrayIndex = 0;
 let charIndex = 0;
 
@@ -6508,29 +6508,29 @@ window.onload = setTimeout(function () {
 
 const imagechange = setTimeout(changeimage, 0);
 
-const imagechange1 = setTimeout(changeimage1, 5000);
+const imagechange1 = setTimeout(changeimage1, 7000);
 
-const imagechange2 = setTimeout(changeimage2, 10000);
+const imagechange2 = setTimeout(changeimage2, 12000);
 
-const imagechange3 = setTimeout(changeimage3,15000);
-
-
-const imagechange4 = setTimeout(changeimage, 20000);
-
-const imagechange5 = setTimeout(changeimage1, 25000);
-
-const imagechange6 = setTimeout(changeimage2, 30000);
-
-const imagechange7 = setTimeout(changeimage3,35000);
+const imagechange3 = setTimeout(changeimage3,17000);
 
 
-const imagechange8 = setTimeout(changeimage, 40000);
+const imagechange4 = setTimeout(changeimage, 22000);
 
-const imagechange9 = setTimeout(changeimage1, 45000);
+const imagechange5 = setTimeout(changeimage1, 27000);
 
-const imagechange10 = setTimeout(changeimage2, 50000);
+const imagechange6 = setTimeout(changeimage2, 32000);
 
-const imagechange11 = setTimeout(changeimage3,55000);
+const imagechange7 = setTimeout(changeimage3,37000);
+
+
+const imagechange8 = setTimeout(changeimage, 42000);
+
+const imagechange9 = setTimeout(changeimage1, 47000);
+
+const imagechange10 = setTimeout(changeimage2, 52000);
+
+const imagechange11 = setTimeout(changeimage3,57000);
 
 function changeimage() {
   document.getElementById("change_pic").style.backgroundImage = "url(./img/mylinh.jpg)";
@@ -6601,18 +6601,18 @@ function changeimage2() {
   document.getElementById("change_pic10").style.backgroundImage= "url(./img/k6.jpg)";
   document.getElementById("change_pic11").style.backgroundImage= "url(./img/h_anh.jpg)";
 
-  document.getElementById("change_pic").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic1").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic2").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic3").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic4").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic5").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic6").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic7").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic8").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic9").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic10").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic11").style.animation = "fade 0.7s linear";
+  document.getElementById("change_pic").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic1").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic2").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic3").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic4").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic5").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic6").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic7").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic8").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic9").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic10").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic11").style.animation = "fade 0.5s linear";
 
 }
 
@@ -6630,18 +6630,18 @@ function changeimage3(){
   document.getElementById("change_pic10").style.backgroundImage= "url(./img/huyen.jpeg)";
   document.getElementById("change_pic11").style.backgroundImage= "url(./img/tien.jpg)";
 
-  document.getElementById("change_pic").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic1").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic2").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic3").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic4").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic5").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic6").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic7").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic8").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic9").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic10").style.animation = "fade 0.7s linear";
-  document.getElementById("change_pic11").style.animation = "fade 0.7s linear";
+  document.getElementById("change_pic").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic1").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic2").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic3").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic4").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic5").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic6").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic7").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic8").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic9").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic10").style.animation = "fade 0.5s linear";
+  document.getElementById("change_pic11").style.animation = "fade 0.5s linear";
 }
 
 // document.getElementById("change_pic").style.animation = "0.7s all linear";

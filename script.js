@@ -6628,7 +6628,7 @@ function changeimage3(){
   document.getElementById("change_pic8").style.backgroundImage = "url(./img/htien.jpg)";
   document.getElementById("change_pic9").style.backgroundImage = "url(./img/tutrang.jpg)";
   document.getElementById("change_pic10").style.backgroundImage= "url(./img/huyen.jpeg)";
-  document.getElementById("change_pic11").style.backgroundImage= "url(./img/athu.jpg)";
+  document.getElementById("change_pic11").style.backgroundImage= "url(./img/ttam2.jpg)";
 
   document.getElementById("change_pic").style.animation = "fade 0.5s linear";
   document.getElementById("change_pic1").style.animation = "fade 0.5s linear";
